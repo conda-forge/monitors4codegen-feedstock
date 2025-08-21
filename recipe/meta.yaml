@@ -1,5 +1,5 @@
 {% set name = "monitors4codegen" %}
-{% set version = "0.0.1" %}
+{% set version = "0.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Software-Analytics-Visualisation-Team/monitors4codegen/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: cc9fa765a70c8311dc515a274ac35510cb345b408cceed0b45e904bd194d3981
+  sha256: 32ad8b38c13dc957917108bf14dc5e3e32679894087a19c5f4a6e2909e52d528
 
 build:
   noarch: python
